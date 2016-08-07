@@ -194,7 +194,7 @@ classdef mvpa < handle
                     model = mvpa_classify(data_train_f,label_train,obj.cfier_param);
                     obj.label_predict(obj.test_idx{i}) = mvpa_predict(data_test_f,lable_test,model);
                 else
-                    [fs_param_best,cfier_param_best] = mvpa_param_search(data_train,lable_train,ps_ind);
+                    
                 end
             end
             obj.acc_best(1) = sum(obj.label_predict == obj.label(:,1))./length(obj.label(:,1));

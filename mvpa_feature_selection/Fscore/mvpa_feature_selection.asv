@@ -13,7 +13,7 @@ end
 
 out = fsFisher(data,label_fs);
 idx_weight = zeros(size(data,2),1);
-idx_weight(out.fList(1:fnum)) = out.W(out.fList(1:fnum));
-apply_param = out.fList(1:fnum);
-data_f = data(:,apply_param);
+idx_weight(out_fList(1:fnum)) = out.W(out.fLis
+
+
 end
