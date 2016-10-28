@@ -1,0 +1,3 @@
+mean accuracy = 60%
+accuracy on group-1 = 60%
+accuracy on group1 = 60%
